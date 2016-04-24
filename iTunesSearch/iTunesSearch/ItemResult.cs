@@ -29,6 +29,7 @@ namespace iTunesSearch
         public string FeedUrl { set; get; }
         public string TrackViewUrl { set; get; }
         public string PreviewUrl { set; get; }
+        public string ArtworkUrl30 { set; get; }
         public string ArtworkUrl60 { set; get; }
         public string ArtworkUrl100 { set; get; }
         public float CollectionPrice { set; get; }
@@ -43,6 +44,7 @@ namespace iTunesSearch
         public string Country { set; get; }
         public string Currency { set; get; }
         public string PrimaryGenreName { set; get; }
+        public string ReleaseDate { set; get; }
         public List<string> GenreIds { set; get; }
         public List<string> Genres { set; get; }
     }
